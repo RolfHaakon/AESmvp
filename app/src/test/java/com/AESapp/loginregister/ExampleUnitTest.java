@@ -1,4 +1,4 @@
-package com.androidtutorialshub.loginregister;
+package com.AESapp.loginregister;
 
 import org.junit.Test;
 

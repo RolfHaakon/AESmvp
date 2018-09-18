@@ -1,4 +1,4 @@
-package com.androidtutorialshub.loginregister.sql;
+package com.AESapp.loginregister.sql;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -6,14 +6,12 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.androidtutorialshub.loginregister.model.User;
+import com.AESapp.loginregister.model.User;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by lalit on 9/12/2016.
- */
+
 public class DatabaseHelper extends SQLiteOpenHelper {
 
     // Database Version
@@ -41,8 +39,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     /**
      * Constructor
-     * 
-     * @param context
      */
     public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -68,7 +64,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     /**
      * This method is to create user record
      *
-     * @param user
      */
     public void addUser(User user) {
         SQLiteDatabase db = this.getWritableDatabase();
