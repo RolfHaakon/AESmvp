@@ -25,6 +25,17 @@
         <activity
             android:name=".activities.UsersListActivity"
             android:screenOrientation="portrait" />
+        <activity android:name=".activities.HomePage" />
+        <activity
+            android:name=".activities.Category"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.Account"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.Track" />
+        <activity android:name=".activities.FruitAndVeg" />
+        <activity android:name=".fruitveg.BroccoliItem" />
+
 
     </application>
 

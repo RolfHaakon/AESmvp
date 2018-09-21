@@ -9,7 +9,7 @@ import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 
 /**
- * Created by lalit on 9/13/2016.
+ *
  */
 public class InputValidation {
     private Context context;
@@ -17,7 +17,7 @@ public class InputValidation {
     /**
      * constructor
      *
-     * @param context
+     * context
      */
     public InputValidation(Context context) {
         this.context = context;
@@ -26,9 +26,9 @@ public class InputValidation {
     /**
      * method to check InputEditText filled .
      *
-     * @param textInputEditText
-     * @param textInputLayout
-     * @param message
+     * textInputEditText
+     * textInputLayout
+     * message
      * @return
      */
     public boolean isInputEditTextFilled(TextInputEditText textInputEditText, TextInputLayout textInputLayout, String message) {
@@ -48,9 +48,9 @@ public class InputValidation {
     /**
      * method to check InputEditText has valid email .
      *
-     * @param textInputEditText
-     * @param textInputLayout
-     * @param message
+     * textInputEditText
+     * textInputLayout
+     * message
      * @return
      */
     public boolean isInputEditTextEmail(TextInputEditText textInputEditText, TextInputLayout textInputLayout, String message) {
@@ -81,7 +81,7 @@ public class InputValidation {
     /**
      * method to Hide keyboard
      *
-     * @param view
+     * view
      */
     private void hideKeyboardFrom(View view) {
         InputMethodManager imm = (InputMethodManager) context.getSystemService(Activity.INPUT_METHOD_SERVICE);

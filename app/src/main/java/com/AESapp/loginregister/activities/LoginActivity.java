@@ -83,8 +83,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     /**
      * This implemented method is to listen the click on view
-     *
-     * @param v
      */
     @Override
     public void onClick(View v) {
@@ -118,7 +116,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 , textInputEditTextPassword.getText().toString().trim())) {
 
 
-            Intent accountsIntent = new Intent(activity, UsersListActivity.class);
+            Intent accountsIntent = new Intent(activity, HomePage.class);
             accountsIntent.putExtra("EMAIL", textInputEditTextEmail.getText().toString().trim());
             emptyInputEditText();
             startActivity(accountsIntent);

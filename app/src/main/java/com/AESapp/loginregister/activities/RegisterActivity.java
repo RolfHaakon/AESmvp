@@ -17,7 +17,7 @@ import com.AESapp.loginregister.model.User;
 import com.AESapp.loginregister.sql.DatabaseHelper;
 
 /**
- * Created by lalit on 8/27/2016.
+
  */
 public class RegisterActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -98,7 +98,6 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
     /**
      * This implemented method is to listen the click on view
      *
-     * @param v
      */
     @Override
     public void onClick(View v) {
